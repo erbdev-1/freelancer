@@ -1,0 +1,21 @@
+ "scripts": {
+    "watch:sass": "sass --watch sass/input.scss css/output.css"
+  },
+
+
+
+
+"sass --watch sass:css"  (sass compile css)
+If we write this code, the .scss extension file that will be created in the sass folder will be created in the css file with the same name .css extension.
+
+//Css dosyasini sikisirmak icin:
+
+ -Minify CSS with Node-Sass
+
+// Animate.style sitesi 
+
+Email submit sitesi 
+https://formspree.io/
+
+
+

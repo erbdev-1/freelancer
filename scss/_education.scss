@@ -1,0 +1,254 @@
+#education {
+  &-a {
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+
+    .education-img {
+      width: 30%;
+      height: auto;
+    }
+
+    .education-title {
+      text-align: center;
+      font-size: 36px;
+
+      h3 {
+        color: rgb(0, 28, 85);
+        font-size: 24px;
+      }
+    }
+  }
+
+  &-b {
+    display: block;
+    font-size: 16px;
+    background-color: #fff;
+
+    h1 {
+      font-size: 32px;
+      font-weight: bold;
+      margin: 24px 0;
+      color: rgb(6, 45, 124);
+    }
+
+    .education-card {
+      display: flex;
+      width: 100%;
+      justify-content: center;
+      align-items: center;
+      color: rgb(0, 28, 85);
+      .card-logo {
+        width: 200px;
+        height: auto;
+        border: 1px solid #9dbeff;
+        border-radius: 50%;
+        padding: 10px;
+        box-shadow: 5px 5px 5px #bcc1cb;
+      }
+
+      .card-body {
+        display: block;
+        margin: 10px;
+        border-bottom: 1px solid #9dbeff;
+        border-left: 1px solid #9dbeff;
+        border-right: 1px solid #9dbeff;
+        border-radius: 7px;
+        box-shadow: 5px 5px 5px #bcc1cb;
+        font-size: 16px;
+
+        .body-header {
+          background-color: rgba(14, 107, 168, 0.467);
+          display: flex;
+          justify-content: space-between;
+          border-radius: 7px 7px 0 0;
+          padding: 10px;
+
+          &-title {
+            width: 80%;
+            align-items: flex-start;
+
+            .card-title {
+              color: rgb(0, 28, 85);
+              font-size: 23px;
+              margin: 20px 0;
+            }
+
+            .card-subtitle {
+              color: rgb(0, 28, 85);
+              font-size: 18px;
+              margin-top: 7px;
+              margin-bottom: 5px;
+              margin-left: 10px;
+            }
+          }
+
+          &-duration {
+            .duration {
+              color: rgb(0, 28, 85);
+              font-size: 16px;
+              padding-right: 10px;
+              float: right;
+              font-weight: bold;
+              margin: 16px 0;
+            }
+          }
+        }
+
+        .body-content {
+          max-width: inherit;
+          border-radius: 0 0 7px 7px;
+          padding: 10px;
+          justify-content: center;
+
+          .content-list {
+            color: rgb(0, 28, 85);
+            padding-left: 10px;
+            padding-right: 10px;
+            margin: 16px 0;
+
+            .btn-primary {
+              cursor: pointer;
+              text-decoration: underline;
+            }
+          }
+
+          .visit-btn {
+            background-color: rgba(14, 107, 168, 0.467);
+            display: inline-block;
+            margin: 0 10px 10px 0;
+            padding: 10px;
+            border-radius: 7px;
+            border: 0;
+            float: right;
+
+            .btn {
+              color: rgb(0, 28, 85);
+              margin: 0;
+              padding: 0;
+              cursor: pointer;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  &-c {
+    display: block;
+    font-size: 16px;
+    background-color: #fff;
+
+    h1 {
+      font-size: 32px;
+      font-weight: bold;
+      margin: 24px 0;
+      color: rgb(6, 45, 124);
+    }
+
+    .education-card {
+      display: flex;
+      width: 100%;
+      justify-content: center;
+      align-items: center;
+      color: rgb(0, 28, 85);
+      .card-logo {
+        width: 200px;
+        height: auto;
+        border: 1px solid #9dbeff;
+        padding: 10px;
+        box-shadow: 5px 5px 5px #bcc1cb;
+      }
+
+      .card-body {
+        width: 70%;
+        display: block;
+        margin: 10px;
+        border-bottom: 1px solid #9dbeff;
+        border-left: 1px solid #9dbeff;
+        border-right: 1px solid #9dbeff;
+        border-radius: 7px;
+        box-shadow: 5px 5px 5px #bcc1cb;
+        font-size: 16px;
+
+        .body-header {
+          background-color: rgba(14, 107, 168, 0.467);
+          display: flex;
+          justify-content: space-between;
+          border-radius: 7px 7px 0 0;
+          padding: 10px;
+
+          &-title {
+            width: 80%;
+            align-items: flex-start;
+
+            .card-title {
+              color: rgb(0, 28, 85);
+              font-size: 23px;
+              margin: 20px 0;
+            }
+
+            .card-subtitle {
+              color: rgb(0, 28, 85);
+              font-size: 18px;
+              margin-top: 7px;
+              margin-bottom: 5px;
+              margin-left: 10px;
+            }
+          }
+
+          &-duration {
+            .duration {
+              color: rgb(0, 28, 85);
+              font-size: 16px;
+              padding-right: 10px;
+              float: right;
+              font-weight: bold;
+              margin: 16px 0;
+            }
+          }
+        }
+
+        .body-content {
+          max-width: inherit;
+          border-radius: 0 0 7px 7px;
+          padding: 10px;
+          justify-content: center;
+
+          .content-list {
+            color: rgb(0, 28, 85);
+            padding-left: 10px;
+            padding-right: 10px;
+            margin: 16px 0;
+            display: flex;
+            justify-content: flex-start;
+
+            .btn-primary {
+              cursor: pointer;
+              text-decoration: underline;
+            }
+          }
+
+          .visit-btn {
+            background-color: rgba(14, 107, 168, 0.467);
+            display: inline-block;
+            margin: 0 10px 10px 0;
+            padding: 10px;
+            border-radius: 7px;
+            border: 0;
+            float: right;
+
+            .btn {
+              color: rgb(0, 28, 85);
+              margin: 0;
+              padding: 0;
+              cursor: pointer;
+            }
+          }
+        }
+      }
+    }
+  }
+}
